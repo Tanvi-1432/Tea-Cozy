@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+  color: seashell;
+  text-align: center;
+  font-size: 22px;
+  font-family: "Open Sans", sans-serif;
+  opacity: 0.9;
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  background-color: black;
+}
+
+.nav img {
+  padding: 10px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.right li {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.right li a {
+  color: seashell;
+  transition: 0.2s ease-out;
+  text-decoration: none;
+}
+
+.right li a:hover {
+  opacity: 0.7;
+}
+
+.banner {
+  background-image: url("../recourses/img-mission-background.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+.content {
+  text-align: center;
+  position: relative;
+  background-color: black;
+  top: 300px;
+  padding: 15px;
+}
+
+.content h2,
+h4 {
+  padding: 10px;
+}
+
+.teas {
+  padding: 5rem;
+}
+
+.images {
+  display: flex;
+  max-width: 1000px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+#teas {
+  padding: 50px;
+}
+
+.image {
+  padding: 1rem;
+}
+
+.image img {
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+}
+
+#locations {
+  background-image: url("../recourses/img-locations-background.jpeg");
+  height: 500px;
+  width: 1200px;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+#locations h2 {
+  padding: 50px 0 15px;
+}
+
+.all-location {
+  display: flex;
+  justify-content: space-between;
+}
+
+.location {
+  width: 300px;
+  margin: 40px;
+  background-color: black;
+  line-height: 60px;
+  letter-spacing: 3px;
+}
+
+.contacts {
+  margin-top: 5rem;
+}
+
+.contacts h2,
+h5,
+p {
+  padding-bottom: 10px;
+}
+
+.left {
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 2rem;
+}
